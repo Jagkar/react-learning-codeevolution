@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+// import Greet from './components/t6_greet'
+import Greet2, {T6_greet, T6_greet3 as Greet3} from './components/t6_greet'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet/>
+      <Greet>hi</Greet> */}
+      {/* <T6_greet/> must be in pascal case*/}
+      <T6_greet/>
+      <Greet2/>
+      <Greet3/>
     </div>
   );
 }
