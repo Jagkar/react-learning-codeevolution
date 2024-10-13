@@ -22,11 +22,11 @@ function App() {
 
       {/* <Hello/> */}
 
-      {/* <T9_Greet name='Jagdeep' heroName='Wonder Woman'><button>Action</button></T9_Greet>
-      <T9_Greet name='Karan' heroName='SuperMan'><p>This is children Paragraph</p></T9_Greet> */}
+      <T9_Greet name='Jagdeep' heroName='Wonder Woman'><button>Action</button></T9_Greet>
+      <T9_Greet name='Karan' heroName='SuperMan'><p>This is children Paragraph</p></T9_Greet>
     
       {/* <T10_Message/> */}
-      <T11_Counter/>
+      {/* <T11_Counter/> */}
     </div>
   );
 }

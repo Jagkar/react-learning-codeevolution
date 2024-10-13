@@ -3,6 +3,10 @@ import React, { Component } from "react";
 const T9_Greet=(props)=>{
     console.log(props);
     // props.name='he';// error: prop is read only
+    // const {name,h}=props;
+    // console.log(name);
+    // console.log(h);
+    
     return (
         <div>
             <h1>Hello {props.name} a.k.a {props.heroName}</h1>
