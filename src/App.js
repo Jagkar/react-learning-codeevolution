@@ -7,6 +7,7 @@ import './App.css';
 import T9_Greet from './components/T9_Greet';
 import T10_Message from './components/T10_Message';
 import T11_Counter from './components/T11_Counter';
+import T13_FunctionClick from './components/T13_FunctionClick';
 
 function App() {
   return (
@@ -22,11 +23,13 @@ function App() {
 
       {/* <Hello/> */}
 
-      <T9_Greet name='Jagdeep' heroName='Wonder Woman'><button>Action</button></T9_Greet>
-      <T9_Greet name='Karan' heroName='SuperMan'><p>This is children Paragraph</p></T9_Greet>
+      {/* <T9_Greet name='Jagdeep' heroName='Wonder Woman'><button>Action</button></T9_Greet>
+      <T9_Greet name='Karan' heroName='SuperMan'><p>This is children Paragraph</p></T9_Greet> */}
     
       {/* <T10_Message/> */}
       {/* <T11_Counter/> */}
+
+      <T13_FunctionClick/>
     </div>
   );
 }
