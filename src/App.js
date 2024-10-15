@@ -8,6 +8,8 @@ import T9_Greet from './components/T9_Greet';
 import T10_Message from './components/T10_Message';
 import T11_Counter from './components/T11_Counter';
 import T13_FunctionClick from './components/T13_FunctionClick';
+import T13_ClassClick from './components/T13_ClassClick';
+import T14_BindingEventHandlers from './components/T14_BindingEventHandlers';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <T10_Message/> */}
       {/* <T11_Counter/> */}
 
-      <T13_FunctionClick/>
+      {/* <T13_FunctionClick/> */}
+      {/* <T13_ClassClick/> */}
+      <T14_BindingEventHandlers/>
     </div>
   );
 }
