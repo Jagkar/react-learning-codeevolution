@@ -10,6 +10,7 @@ import T11_Counter from './components/T11_Counter';
 import T13_FunctionClick from './components/T13_FunctionClick';
 import T13_ClassClick from './components/T13_ClassClick';
 import T14_BindingEventHandlers from './components/T14_BindingEventHandlers';
+import T15_UnderstandingComponentsRendering from './components/T15_UnderstandingComponentsRendering';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
 
       {/* <T13_FunctionClick/> */}
       {/* <T13_ClassClick/> */}
-      <T14_BindingEventHandlers/>
+      {/* <T14_BindingEventHandlers/> */}
+
+      <T15_UnderstandingComponentsRendering/>
     </div>
   );
 }

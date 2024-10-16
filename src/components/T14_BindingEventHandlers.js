@@ -48,7 +48,7 @@ export default T14_BindingEventHandlers
 
 // 2. arrow functions in render method:
 // onClick={()=>this.clickHandler()}
-// we are calling the event handler and returning the value, ok, but still perfrmance issues
+// we are calling the event handler and returning the value, ok, but still performance issues
 // use if no renderning of nested children components
 
 // 3. 
