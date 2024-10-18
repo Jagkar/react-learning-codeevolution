@@ -12,6 +12,7 @@ import T13_ClassClick from './components/T13_ClassClick';
 import T14_BindingEventHandlers from './components/T14_BindingEventHandlers';
 import T15_UnderstandingComponentsRendering from './components/T15_UnderstandingComponentsRendering';
 import T15_ParentComponent from './components/T15_ParentComponent';
+import T16_ConditionalRendering from './components/T16_ConditionalRendering';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
 
       {/* <T15_UnderstandingComponentsRendering/> */}
 
-      <T15_ParentComponent/>
+      {/* <T15_ParentComponent/> */}
+
+      <T16_ConditionalRendering/>
     </div>
   );
 }
