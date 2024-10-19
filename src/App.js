@@ -13,6 +13,8 @@ import T14_BindingEventHandlers from './components/T14_BindingEventHandlers';
 import T15_UnderstandingComponentsRendering from './components/T15_UnderstandingComponentsRendering';
 import T15_ParentComponent from './components/T15_ParentComponent';
 import T16_ConditionalRendering from './components/T16_ConditionalRendering';
+import T17_ListRendering from './components/T17_ListRendering';
+import T17_ListRenderingUsingComponent from './components/T17_ListRenderingUsingComponent';
 
 function App() {
   return (
@@ -42,7 +44,10 @@ function App() {
 
       {/* <T15_ParentComponent/> */}
 
-      <T16_ConditionalRendering/>
+      {/* <T16_ConditionalRendering/> */}
+
+      {/* <T17_ListRendering/> */}
+      <T17_ListRenderingUsingComponent/>
     </div>
   );
 }
