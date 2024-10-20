@@ -1,6 +1,5 @@
 // WHne we dont have id
 import React from "react";
-import T17_Person from "./T17_Person";
 
 function T19_IndexAsKeyAntiPattern() {
   const names = ["Bruce", "Clark", "Diana","Bruce"];

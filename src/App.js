@@ -17,6 +17,11 @@ import T17_ListRendering from './components/T17_ListRendering';
 import T17_ListRenderingUsingComponent from './components/T17_ListRenderingUsingComponent';
 import T18_ListsAndKeys from './components/T18_ListsAndKeys'; 
 import T19_IndexAsKeyAntiPattern from './components/T19_IndexAsKeyAntiPattern';
+import T20_StylingReactComponents from './components/T20_StylingReactComponents';
+import T20_Inline from './components/T20_Inline';
+import T20_StylingUsingModule from './components/T20_StylingUsingModule';
+import T20_StyleWithClassNames from './components/T20_StyleWithClassNames';
+import T20_UsingStyleComponent from './components/T20_UsingStyleComponent';
 
 function App() {
   return (
@@ -53,7 +58,19 @@ function App() {
 
       {/* <T18_ListsAndKeys/> */}
 
-      <T19_IndexAsKeyAntiPattern/>
+      {/* <T19_IndexAsKeyAntiPattern/> */}
+
+      {/* <T20_StylingReactComponents primary={true}/>
+      <T20_StylingReactComponents primary={false}/> */}
+
+      {/* <T20_Inline/> */}
+      {/* <T20_StylingUsingModule/> */}
+      {/* <T20_StyleWithClassNames isActive={true} isDisabled={false} isRed={true}/>
+      <T20_StyleWithClassNames isActive={true} isDisabled={true} isRed={true}/> */}
+
+      <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={true}/>
+      <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={false}/>
+      <T20_UsingStyleComponent isActive={true} isDisabled={true} isRed={true}/>
     </div>
   );
 }

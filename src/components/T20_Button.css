@@ -1,0 +1,21 @@
+.btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-red {
+    color: red;
+  }
+  
+  .btn-blue {
+    color: blue;
+  }
+  
+  .btn-active {
+    font-weight: bold;
+  }
+  
+  .btn-disabled {
+    opacity: 0.5;
+  }
+  
