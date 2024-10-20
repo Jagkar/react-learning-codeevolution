@@ -12,14 +12,25 @@ import React from 'react'
 // }
 
 
-function T17_Person(props) {
-    return (
-      <div>
+// function T17_Person(props) {
+//     return (
+//       <div>
+//         <h2>
+//           I am {props.person.name}. I am {props.person.age} year old. I know {props.person.skill} {props.group}
+//         </h2>
+//       </div>
+//     );
+//   }
+
+// accessing key in child component
+function T17_Person({person,key}) {
+  return (
+    <div>
         <h2>
-          I am {props.person.name}. I am {props.person.age} year old. I know {props.person.skill} {props.group}
+          {key} I am {person.name}. I am {person.age} year old. I know {person.skill}
         </h2>
-      </div>
-    );
-  }
+    </div>
+  )
+}
 
 export default T17_Person

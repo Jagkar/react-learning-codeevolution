@@ -15,6 +15,8 @@ import T15_ParentComponent from './components/T15_ParentComponent';
 import T16_ConditionalRendering from './components/T16_ConditionalRendering';
 import T17_ListRendering from './components/T17_ListRendering';
 import T17_ListRenderingUsingComponent from './components/T17_ListRenderingUsingComponent';
+import T18_ListsAndKeys from './components/T18_ListsAndKeys'; 
+import T19_IndexAsKeyAntiPattern from './components/T19_IndexAsKeyAntiPattern';
 
 function App() {
   return (
@@ -47,7 +49,11 @@ function App() {
       {/* <T16_ConditionalRendering/> */}
 
       {/* <T17_ListRendering/> */}
-      <T17_ListRenderingUsingComponent/>
+      {/* <T17_ListRenderingUsingComponent/> */}
+
+      {/* <T18_ListsAndKeys/> */}
+
+      <T19_IndexAsKeyAntiPattern/>
     </div>
   );
 }
