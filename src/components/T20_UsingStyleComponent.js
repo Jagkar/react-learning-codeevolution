@@ -45,7 +45,7 @@ const StyledButton = styled.button`
 
 const Button = ({ isRed, isDisabled }) => (
   <StyledButton isRed={isRed} isDisabled={isDisabled} disabled={isDisabled}>
-    {isDisabled ? 'Disabled' : 'Click Me'}
+    {isDisabled ? 'Disabled Button' : 'Click Me'}
   </StyledButton>
 );
 
