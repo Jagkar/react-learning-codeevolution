@@ -42,11 +42,11 @@ const StyledButton = styled.button`
     opacity: ${props => props.isDisabled ? 1 : 0.8};
   }
 `;
-
+ 
 const Button = ({ isRed, isDisabled }) => (
   <StyledButton isRed={isRed} isDisabled={isDisabled} disabled={isDisabled}>
     {isDisabled ? 'Disabled Button' : 'Click Me'}
   </StyledButton>
 );
-
+ 
 export default Button;
