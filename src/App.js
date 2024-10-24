@@ -22,6 +22,7 @@ import T20_Inline from './components/T20_Inline';
 import T20_StylingUsingModule from './components/T20_StylingUsingModule';
 import T20_StyleWithClassNames from './components/T20_StyleWithClassNames';
 import T20_UsingStyleComponent from './components/T20_UsingStyleComponent';
+import T21_FormHandling from './components/T21_FormHandling';
 
 function App() {
   return (
@@ -68,9 +69,11 @@ function App() {
       {/* <T20_StyleWithClassNames isActive={true} isDisabled={false} isRed={true}/>
       <T20_StyleWithClassNames isActive={true} isDisabled={true} isRed={true}/> */}
 
-      <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={true}/>
+      {/* <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={true}/>
       <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={false}/>
-      <T20_UsingStyleComponent isActive={true} isDisabled={true} isRed={true}/>
+      <T20_UsingStyleComponent isActive={true} isDisabled={true} isRed={true}/> */}
+
+      <T21_FormHandling/>
     </div>
   );
 }
