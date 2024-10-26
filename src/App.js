@@ -23,6 +23,7 @@ import T20_StylingUsingModule from './components/T20_StylingUsingModule';
 import T20_StyleWithClassNames from './components/T20_StyleWithClassNames';
 import T20_UsingStyleComponent from './components/T20_UsingStyleComponent';
 import T21_FormHandling from './components/T21_FormHandling';
+import T23_ComponentMountingLifecycleMethods from './components/T23_ComponentMountingLifecycleMethods';
 
 function App() {
   return (
@@ -73,7 +74,9 @@ function App() {
       <T20_UsingStyleComponent isActive={true} isDisabled={false} isRed={false}/>
       <T20_UsingStyleComponent isActive={true} isDisabled={true} isRed={true}/> */}
 
-      <T21_FormHandling/>
+      {/* <T21_FormHandling/> */}
+
+      <T23_ComponentMountingLifecycleMethods/>
     </div>
   );
 }
