@@ -28,6 +28,7 @@ import T24_UpdatingLifecycleMethods from './components/T24_UpdatingLifecycleMeth
 import T25_Fragment from './components/T25_Fragment';
 import T25_Table from './components/T25_Table';
 import T26_PureComponent from './components/T26_PureComponent';
+import T26_ParentComponent from './components/T26_ParentComponent';
 
 function App() {
   return (
@@ -87,7 +88,7 @@ function App() {
       {/* <T25_Fragment/> */}
       {/* <T25_Table/> */}
 
-      <T26_PureComponent/>
+      <T26_ParentComponent/>
     </div>
   );
 }
