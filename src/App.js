@@ -29,6 +29,9 @@ import T25_Fragment from './components/T25_Fragment';
 import T25_Table from './components/T25_Table';
 import T26_PureComponent from './components/T26_PureComponent';
 import T26_ParentComponent from './components/T26_ParentComponent';
+import T28_Refs from './components/T28_Refs';
+import T28_CallbackRefs from './components/T28_CallbackRefs';
+import T29_FocusInput from './components/T29_FocusInput';
 
 function App() {
   return (
@@ -88,7 +91,11 @@ function App() {
       {/* <T25_Fragment/> */}
       {/* <T25_Table/> */}
 
-      <T26_ParentComponent/>
+      {/* <T26_ParentComponent/> */}
+
+      {/* <T28_Refs/> */}
+      {/* <T28_CallbackRefs/> */}
+      <T29_FocusInput/>
     </div>
   );
 }
