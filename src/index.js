@@ -9,7 +9,7 @@ import App3_React_Portals from './App3_React_Portals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    // <App />
+    <App />
     // <App2_Event_Bubbling/>
     // <App3_React_Portals/>
   // </React.StrictMode>
