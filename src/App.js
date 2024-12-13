@@ -37,6 +37,11 @@ import T30_FRParentInput from "./components/T30_FRParentInput";
 import T31_PortalDemo from "./components/T31_PortalDemo";
 import T32_Hero from "./components/T32_Hero";
 import T32_ErrorBoundary from "./components/T32_ErrorBoundary";
+import T33_ClickCounter from "./components/T33_ClickCounter";
+import T33_HoverCounter from "./components/T33_HoverCounter";
+import T34_ClickCounter from "./components/T34_ClickCounter";
+import T34_HoverCounter from "./components/T34_HoverCounter";
+import T35_ClickCounter from "./components/T35_ClickCounter";
 
 function App() {
   return (
@@ -104,7 +109,7 @@ function App() {
       {/* <T30_FRParentInput/> */}
       {/* <T31_PortalDemo/> */}
 
-      <T32_ErrorBoundary>
+      {/* <T32_ErrorBoundary>
         <T32_Hero heroName="Batman" />
       </T32_ErrorBoundary>
       <T32_ErrorBoundary>
@@ -112,7 +117,16 @@ function App() {
       </T32_ErrorBoundary>
       <T32_ErrorBoundary>
         <T32_Hero heroName="Joker" />
-      </T32_ErrorBoundary>
+      </T32_ErrorBoundary> */}
+
+      {/* <T33_ClickCounter/>
+      <T33_HoverCounter/> */}
+
+      {/* <T34_ClickCounter/>
+      <T34_HoverCounter/> */}
+
+      <T35_ClickCounter name='Jagdeep'/>
+
       {/* <T43_postForm/> */}
     </div>
   );
