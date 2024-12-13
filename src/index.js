@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App2_Event_Bubbling from './App2_Event_Bubbling';
+import App3_React_Portals from './App3_React_Portals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <App />
+    // <App />
+    // <App2_Event_Bubbling/>
+    // <App3_React_Portals/>
   // </React.StrictMode>
 );
 

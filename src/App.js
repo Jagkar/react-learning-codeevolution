@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 // import Greet from './components/t6_greet'
-// import Greet2, {T6_greet, T6_greet3 as Greet3} from './components/t6_greet'
+import Greet2, {T6_greet, T6_greet3 as Greet3} from './components/t6_greet'
 // import Welcome from './components/T7_Welcome';
 // import Hello from './components/T8_Hello';
 import T9_Greet from './components/T9_Greet';
@@ -32,6 +32,9 @@ import T26_ParentComponent from './components/T26_ParentComponent';
 import T28_Refs from './components/T28_Refs';
 import T28_CallbackRefs from './components/T28_CallbackRefs';
 import T29_FocusInput from './components/T29_FocusInput';
+import T43_postForm from './components/T43_postForm';
+import T30_FRParentInput from './components/T30_FRParentInput';
+import T31_PortalDemo from './components/T31_PortalDemo';
 
 function App() {
   return (
@@ -95,7 +98,11 @@ function App() {
 
       {/* <T28_Refs/> */}
       {/* <T28_CallbackRefs/> */}
-      <T29_FocusInput/>
+      {/* <T29_FocusInput/> */}
+      {/* <T30_FRParentInput/> */}
+      <T31_PortalDemo/>
+
+      {/* <T43_postForm/> */}
     </div>
   );
 }
