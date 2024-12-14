@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import logo from "./logo.svg";
 import "./App.css";
 // import Greet from './components/t6_greet'
@@ -42,6 +43,9 @@ import T33_HoverCounter from "./components/T33_HoverCounter";
 import T34_ClickCounter from "./components/T34_ClickCounter";
 import T34_HoverCounter from "./components/T34_HoverCounter";
 import T35_ClickCounter from "./components/T35_ClickCounter";
+import T37_User from "./components/T37_User";
+import T37_Counter from "./components/T37_Counter";
+import T37_ClickCounter from "./components/T37_ClickCounter";
 
 function App() {
   return (
@@ -124,8 +128,23 @@ function App() {
 
       {/* <T34_ClickCounter/>
       <T34_HoverCounter/> */}
+      {/* <T35_ClickCounter name='Jagdeep'/> */}
 
-      <T35_ClickCounter name='Jagdeep'/>
+      {/* <T37_User name="Jagdeep"/> */}
+      {/* <T37_User name={(isLoggedIn)=>isLoggedIn?'Jagdeep':'Guest'}/> */}
+      {/* change prop name to render, this will not conflict with render lifecycle */}
+      {/* <T37_User render={(isLoggedIn)=>isLoggedIn?'Jagdeep':'Guest'}/> */}
+
+      {/* <T37_Counter
+        render={(count, incrementCount) => (
+          <T37_ClickCounter count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
+      <T37_Counter>
+      {(count, incrementCount) => (
+          <T37_ClickCounter count={count} incrementCount={incrementCount} />
+        )}
+      </T37_Counter>
 
       {/* <T43_postForm/> */}
     </div>
